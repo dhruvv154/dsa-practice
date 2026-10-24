@@ -36,3 +36,10 @@ Files are named `<leetcode-number>-<slug>.<ext>`, e.g. `0001-two-sum.py`. Each o
 # ...solve it, paste the accepted solution...
 .\done.ps1 "Two Sum: hashmap O(n)"         # commit + push
 ```
+
+On macOS / Linux:
+
+```bash
+./new.sh arrays-hashing 0001-two-sum
+./done.sh "Two Sum: hashmap O(n)"          # pulls first, then commit + push
+```
