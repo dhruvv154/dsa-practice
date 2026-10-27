@@ -1,10 +1,9 @@
-"""
-Problem:  <title> — <link>
-Approach: <one or two lines on the key idea>
-Time:     O(?)
-Space:    O(?)
-"""
+class Solution(object):
+    def isPalindrome(self, s):
+        cleaned = ""
 
+        for char in s:
+            if char.isalnum():
+                cleaned += char.lower()
 
-class Solution:
-    pass
+        return cleaned == cleaned[::-1]
