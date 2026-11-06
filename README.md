@@ -2,6 +2,8 @@
 
 Daily data structures & algorithms practice, following the [NeetCode 150](https://neetcode.io/practice) roadmap. One problem a day, minimum.
 
+Quick reference for patterns and code templates: [CHEATSHEET.md](CHEATSHEET.md).
+
 ## Layout
 
 Solutions are grouped by topic, in NeetCode 150 order:
